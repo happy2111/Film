@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./latest.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <a href="" class="nav__logo"
+            ><img src="./assets/header/logo.png" alt=""
+          /></a>
+          <ul class="nav__list">
+            <li><a href="">Upcoming</a></li>
+            <li><a href="">Shows</a></li>
+            <li><a href="">Fanart</a></li>
+            <li><a href="">Plans</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="">Account</a></li>
+          </ul>
+          <div class="nav_search">
+            <img src="./assets/icons/carbon_search.png" alt="" />
+          </div>
+          <div class="burger" >
+            <img src="./assets/icons/burger.png" alt="">
+          </div>
+        </div>
+        <div class="mob__nav" >
+          <div class="closer">
+              
+          </div>
+          <div class="main">
+            <div class="mob__nav__tools">
+              <img src="./assets/icons/carbon_search.png" alt="" />
+              <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+            </div>
+            <ul class="mobile__list">
+              <li><a href="">Upcoming</a></li>
+              <li><a href="">Shows</a></li>
+              <li><a href="">Fanart</a></li>
+              <li><a href="">Plans</a></li>
+              <li><a href="">Community</a></li>
+              <li><a href="">Community</a></li>
+              <li><a href="">Account</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+      <div class="hero_wrapper">
+        <!-- hero start  -->
+        <div class="hero hero1">
+          <div class="container">
+            <div class="hero__text">
+              <p class="hero__year">2022</p>
+              <h1 class="hero__title">The Batman</h1>
+              <p class="hero__time">2 hr 56 min • Action • Drama</p>
+              <p class="hero__about">
+                Batman is called to intervene when the mayor of Gotham City is
+                murdered. Soon, his investigation leads him to uncover a web of
+                corruption, linked to his own dark past.
+              </p>
+            </div>
+            <div class="hero__btn">
+              <a href="">
+                <img src="assets/icons/ph_play-fill.png" alt="" />
+                Play Now
+              </a>
+              <a href="">
+                <img src="assets/icons/ph_play-fill.png" alt="" />
+                Watch Trailer
+              </a>
+              <a href="">
+                <img src="assets/icons/save.png" alt="" />
+                Add to Wishlist
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- ******hero end  -->
+        <!-- hero start  -->
+        <div class="hero hero2">
+          <div class="container">
+            <div class="hero__text">
+              <p class="hero__year">2019</p>
+              <h1 class="hero__title">Avengers: Endgame</h1>
+              <p class="hero__time">2 hr 3 min • Action • Sci-fi</p>
+              <p class="hero__about">
+                After Thanos, an intergalactic warlord, disintegrates half of
+                the universe, the Avengers must reunite and assemble again to
+                reinvigorate their trounced allies and restore balance.
+              </p>
+            </div>
+            <div class="hero__btn">
+              <a href="">
+                <img src="assets/icons/ph_play-fill.png" alt="" />
+                Play Now
+              </a>
+              <a href="">
+                <img src="assets/icons/ph_play-fill.png" alt="" />
+                Watch Trailer
+              </a>
+              <a href="">
+                <img src="assets/icons/save.png" alt="" />
+                Add to Wishlist
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- ******hero end  -->
+        <!-- hero start  -->
+        <div class="hero hero3">
+          <div class="container">
+            <div class="hero__text">
+              <p class="hero__year">2017</p>
+              <h1 class="hero__title">Money Heist</h1>
+              <p class="hero__time">5 Seasons • Action •Thriller</p>
+              <p class="hero__about">
+                When the national mint and a touring school group are held
+                hostage by robbers, police believe that the thieves have no way
+                out. Little do they know that the thieves have a bigger plan in
+                store.
+              </p>
+            </div>
+            <div class="hero__btn">
+              <a href="">
+                <img src="assets/icons/ph_play-fill.png" alt="" />
+                Play Now
+              </a>
+              <a href="">
+                <img src="assets/icons/ph_play-fill.png" alt="" />
+                Watch Trailer
+              </a>
+              <a href="">
+                <img src="assets/icons/save.png" alt="" />
+                Add to Wishlist
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- ******hero end  -->
+
+        <div class="pagination">
+          <span id="pag1"></span>
+          <span id="pag2" class="active"></span>
+          <span id="pag3"></span>
+        </div>
+      </div>
+    </header>
+
+    <section id="latest" >
+      <div class="container">
+        <div class="latest_text">
+          <h3>Latest Releases</h3>
+          <p class="see-all see-all1">See all</p>
+        </div>
+
+        <div class="latest__cards latest__cards1">
+          <div class="card">
+            <img src="./assets/latest/l1.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/2.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/l3.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/l1.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/2.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/l3.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/l1.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/2.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/l3.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+        </div>
+       </div>
+    </section>
+
+
+    <section id="latest" >
+      <div class="container">
+        <div class="latest_text">
+          <h3>Trending</h3>
+          <p class="see-all see-all2">See all</p>
+        </div>
+
+        <div class="latest__cards latest__cards2">
+          <div class="card">
+            <img src="./assets/latest/l1.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/2.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/l3.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/l1.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/2.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/l3.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/l1.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/2.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+          <div class="card">
+            <img src="./assets/latest/l3.png" alt="">
+            <span>
+              <h3>Deadpool & Wolverine</h3>
+              <p>Action • Sci-fi</p>
+            </span>
+          </div>
+        </div>
+       </div>
+    </section>
+
+    <script>
+      const closer = document.querySelector(".closer")
+      const menu = document.querySelector(".mob__nav");
+      const btn = document.querySelector(".burger")
+      const xBtn = document.querySelector(".fa-xmark")
+      const body = document.body
+      btn.addEventListener("click", () => {
+        menu.style.right = "0"
+      })
+      xBtn.addEventListener("click", () => {
+        menu.style.right = "-100%"
+      })
+      closer.addEventListener("click", () => {
+        menu.style.right = "-100%"
+      })
+
+
+
+
+
+      const seeAll = document.querySelector(".see-all1")
+      const latestCards = document.querySelector(".latest__cards1")
+      const seeAll2 = document.querySelector(".see-all2")
+      const latestCards2 = document.querySelector(".latest__cards2")
+    
+      seeAll.addEventListener("click", () => {
+        seeAll.classList.toggle("active")
+        if (seeAll.classList.contains("active")) {
+          latestCards.style.flexWrap = "wrap";
+          latestCards.style.overflowX = "hidden";
+
+        } else {
+          latestCards.style.flexWrap = "nowrap";
+          latestCards.style.overflowX = "scroll";
+        }
+      });
+
+      seeAll2.addEventListener("click", () => {
+        seeAll2.classList.toggle("active")
+        if (seeAll2.classList.contains("active")) {
+          latestCards2.style.flexWrap = "wrap";
+          latestCards2.style.overflowX = "hidden";
+
+        } else {
+          latestCards2.style.flexWrap = "nowrap";
+          latestCards2.style.overflowX = "scroll";
+        }
+      });
+      
+
+
+      const pag1 = document.querySelector("#pag1");
+      const pag2 = document.querySelector("#pag2");
+      const pag3 = document.querySelector("#pag3");
+      const hero1 = document.querySelector(".hero1");
+      const hero2 = document.querySelector(".hero2");
+      const hero3 = document.querySelector(".hero3");
+
+      const toggleActive = (
+        activePag,
+        inactivePags,
+        activeHero,
+        inactiveHeroes
+      ) => {
+        activePag.classList.add("active");
+        inactivePags.forEach((pag) => pag.classList.remove("active"));
+        activeHero.style.zIndex = "3";
+        inactiveHeroes.forEach((hero) => (hero.style.zIndex = "1"));
+      };
+
+      let currentIndex = 0; // Текущий активный элемент
+      const pags = [pag1, pag2, pag3];
+      const heroes = [hero1, hero2, hero3];
+
+      setInterval(() => {
+        const nextIndex = (currentIndex + 1) % pags.length; // Циклический переход
+        toggleActive(
+          pags[nextIndex],
+          pags.filter((_, i) => i !== nextIndex),
+          heroes[nextIndex],
+          heroes.filter((_, i) => i !== nextIndex)
+        );
+        currentIndex = nextIndex; // Обновляем текущий индекс
+      }, 4500);
+
+      // let pag1 = document.querySelector("#pag1")
+      // let pag2 = document.querySelector("#pag2")
+      // let hero1 = document.querySelector(".hero1")
+      // let hero2 = document.querySelector(".hero2")
+
+      // pag1.addEventListener("click", () => {
+      //   pag1.classList.add("active")
+      //   pag2.classList.remove("active")
+      //   hero1.style.zIndex = "3"
+      //   hero2.style.zIndex = "1"
+      // });
+      // pag2.addEventListener("click", () => {
+      //   pag1.classList.remove("active")
+      //   pag2.classList.add("active")
+      //   hero1.style.zIndex = "1"
+      //   hero2.style.zIndex = "3"
+      // });
+
+      // pag.forEach((i, index) => {
+      //   console.log(i);
+
+      //   i.addEventListener("click", () => {
+      //     pag.forEach(j => {
+      //       j.classList.remove('active')
+      //     })
+      //     i.classList.toggle('active')
+      //     hero.forEach(k => {
+      //       k.style.zIndex = "0";
+      //     })
+      //     hero[index].style.zIndex = "999"
+
+      //   })
+      // })
+    </script>
+  </body>
+</html>
